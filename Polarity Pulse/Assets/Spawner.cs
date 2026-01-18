@@ -40,8 +40,13 @@ public class Spawner : MonoBehaviour
         float angle = Random.Range(0f, Mathf.PI * 2f);
         Vector3 spawnPos = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0) * spawnRadius;
 
-        GameObject newPulse = Instantiate(pulsePrefab, spawnPos, Quaternion.identity);
-        if (pulseHolder != null) newPulse.transform.SetParent(pulseHolder);
+        // Instantiate directly as a child of the spinning holder
+        GameObject newPulse = Instantiate(pulsePrefab, spawnPos, Quaternion.identity, pulseHolder);
+
+        // Ensure it doesn't inherit a weird scale from the parent
+        newPulse.transform.localScale = Vector3.one;
+
+        PulseController pc = newPulse.GetComponent<PulseController>();
 
         int score = (scoreManager != null) ? scoreManager.currentScore : 0;
         Color selectedColor;
@@ -64,7 +69,6 @@ public class Spawner : MonoBehaviour
             default: selectedColor = colorA; break;
         }
 
-        PulseController pc = newPulse.GetComponent<PulseController>();
         if (pc != null)
         {
             // We pass 'false' for isColorA since we are now using 

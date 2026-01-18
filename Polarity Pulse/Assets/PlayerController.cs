@@ -19,9 +19,11 @@ public class PlayerController : MonoBehaviour
 
     [Header("Effects")]
     public ParticleSystem burstEffect;
+    private float startStabilityTimer = 0.5f;
 
     void Start()
     {
+   
         sr = GetComponent<SpriteRenderer>();
         targetColor = colorA;
         sr.color = colorA;
@@ -30,6 +32,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (startStabilityTimer > 0) startStabilityTimer -= Time.deltaTime;
         float pulse = 1f + Mathf.Sin(Time.time * 6f) * 0.12f;
         transform.localScale = new Vector3(pulse, pulse, 1f);
 
@@ -66,6 +69,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (startStabilityTimer > 0) return;
         if (other.CompareTag("Pulse"))
         {
             PulseController pulse = other.GetComponent<PulseController>();
