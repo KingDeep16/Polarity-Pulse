@@ -1,6 +1,7 @@
 using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
@@ -38,7 +39,11 @@ public class PlayerController : MonoBehaviour
 
         if (Pointer.current != null && Pointer.current.press.wasPressedThisFrame)
         {
-            CycleColor();
+            // Check if the click is over a UI element (like a button)
+            if (!EventSystem.current.IsPointerOverGameObject())
+            {
+                CycleColor();
+            }
         }
 
         sr.color = Color.Lerp(sr.color, targetColor, Time.deltaTime * colorTransitionSpeed);

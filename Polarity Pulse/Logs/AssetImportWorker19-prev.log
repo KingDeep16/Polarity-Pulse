@@ -1,0 +1,1029 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.4f1 (fdd3b8998ec4) revision 16634808'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32651 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sande" at "2026-01-18T20:22:01.7839633Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-01-18T20:22:01Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.4f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker19
+-projectPath
+C:/UnityProjects/Polarity-Pulse/Polarity Pulse
+-logFile
+Logs/AssetImportWorker19.log
+-srvPort
+63050
+-licensingIpc
+LicenseClient-sande
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/UnityProjects/Polarity-Pulse/Polarity Pulse
+C:/UnityProjects/Polarity-Pulse/Polarity Pulse
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [7708]  Target information:
+
+Player connection [7708]  * "[IP] 172.16.25.2 [Port] 0 [Flags] 2 [Guid] 2973288088 [EditorId] 2973288088 [Version] 1048832 [Id] WindowsEditor(7,PETTAI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7708] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7708] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.4f1 (fdd3b8998ec4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.4f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/Polarity-Pulse/Polarity Pulse/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16337 MB
+    Driver:   32.0.21037.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              18d69053c67340cd8a5413973474afc6
+  Correlation Id:          2d1e7e5f643af8c1ce5d0a7b60c947a1
+  External correlation Id: 7312482961127953700
+  Machine Id:              NYc6ToqiHgkvIXzAQ4TvLAeYWX8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sande" (connect: 0.00s, validation: 0.00s, handshake: 1.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sande-notifications" at "2026-01-18T20:22:02.827651Z"
+[Licensing::Module] Licensing Background thread has ended after 1.04s
+[Licensing::Module] Licensing is initialized (took 0.23s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773558354092-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.234663 seconds.
+- Loaded All Assemblies, in  0.695 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 225 ms
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.666 seconds
+Domain Reload Profiling: 1358ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (296ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (144ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (666ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (623ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (323ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.879 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.040 seconds
+Domain Reload Profiling: 1910ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (607ms)
+		LoadAssemblies (446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (166ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1040ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (897ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6926 unused Assets / (4.5 MB). Loaded Objects now: 7764.
+Memory consumption went from 156.8 MB to 152.4 MB.
+Total: 8.884700 ms (FindLiveObjects: 0.761200 ms CreateObjectMapping: 0.480200 ms MarkObjects: 5.674500 ms  DeleteObjects: 1.967600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 96951.176008 seconds.
+  path: Assets/Layer Lab/GUI-Neon/PSD/00_Alphabet.psd
+  artifactKey: Guid(9b9e66aef27c945279653ce0c6cc98c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/PSD/00_Alphabet.psd using Guid(9b9e66aef27c945279653ce0c6cc98c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77a9910d26a57d97e2f5bf3aa2d7d0e9') in 0.0794541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Layer Lab/GUI-Neon/PSD/12_Popup.psd
+  artifactKey: Guid(025b6ca9384b7472a9c053c89a02e61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/PSD/12_Popup.psd using Guid(025b6ca9384b7472a9c053c89a02e61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa1e24c7101000e90cdf923fbc6b7eef') in 0.0200344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Layer Lab/GUI-Neon/PSD/05_Setting.psd
+  artifactKey: Guid(5864a7858b06441aa9994f9416f71641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/PSD/05_Setting.psd using Guid(5864a7858b06441aa9994f9416f71641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce1470b1bc016baf489a7caac2003b28') in 0.0192623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.003211 seconds.
+  path: Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Label_Demo.prefab
+  artifactKey: Guid(cc6c40ec1d6a04444b227cbb62db3641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Label_Demo.prefab using Guid(cc6c40ec1d6a04444b227cbb62db3641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2e08ddb2c129f3236cdd0e8ae9daaef') in 0.0241286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Toggle_Check_Demo_d.prefab
+  artifactKey: Guid(ce3a54e39f9a744aeb90759d6182f747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Toggle_Check_Demo_d.prefab using Guid(ce3a54e39f9a744aeb90759d6182f747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0c344b34cb7bd3b548da478fc003a08') in 0.0020871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Status_Star_Demo.prefab
+  artifactKey: Guid(9f2f2b9348a064bc09afcb8eb19ac517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Status_Star_Demo.prefab using Guid(9f2f2b9348a064bc09afcb8eb19ac517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d2901cb33847548f9b266e86d420ba5') in 0.0065974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Toggle_Check_Demo.prefab
+  artifactKey: Guid(ebb2d61f74ccb41d7bd4fc3c7aac7148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Toggle_Check_Demo.prefab using Guid(ebb2d61f74ccb41d7bd4fc3c7aac7148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aad25cc0cdf37ea6571539c9b1b2f935') in 0.0050252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Toggle_Radio_Demo_d.prefab
+  artifactKey: Guid(53bd6631eb88546dcae986c7292c8020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Toggle_Radio_Demo_d.prefab using Guid(53bd6631eb88546dcae986c7292c8020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '948b9bbc68f740e40b0f47ff50377b52') in 0.0020362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Status_Star_White.prefab
+  artifactKey: Guid(4453d73e9fae1420287df220c59a836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/Prefabs/Prefabs_Component_UI_Etc/Status_Star_White.prefab using Guid(4453d73e9fae1420287df220c59a836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f6c5ea94b930262d2a03abee76aaa0') in 0.0053457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.090757 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Animation/Loading_Rotate_02.png
+  artifactKey: Guid(3a002a820c1b14368b3be0d6c85e5e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Animation/Loading_Rotate_02.png using Guid(3a002a820c1b14368b3be0d6c85e5e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7d5bd89d6d3204842f3f4ee4792902a') in 0.0177938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Animation/Loading_Rotate_09.png
+  artifactKey: Guid(f1c3eb096c03042f1838db76b469c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Animation/Loading_Rotate_09.png using Guid(f1c3eb096c03042f1838db76b469c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7f5901ad2bd60d59a40fea701f6bf90') in 0.0169283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Animation/Loading_Rotate_10.png
+  artifactKey: Guid(668ec9f5f09c14e238c81e342ab46676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Animation/Loading_Rotate_10.png using Guid(668ec9f5f09c14e238c81e342ab46676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f78744ff6c7acc5da86c9e78176463ea') in 0.0184875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Animation/Loading_Rotate_08.png
+  artifactKey: Guid(8ba3c0dba600b429e91065385c8f20eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Animation/Loading_Rotate_08.png using Guid(8ba3c0dba600b429e91065385c8f20eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07b7e5e9df7e8163c0839d3a513677a7') in 0.0180476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.119502 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Circle_Face_Red.png
+  artifactKey: Guid(88c700b19672c4188a2792e22da7cd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Circle_Face_Red.png using Guid(88c700b19672c4188a2792e22da7cd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65acd7b3cdba4986eb711354a7e3dc5d') in 0.0189832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Circle_Line_White.png
+  artifactKey: Guid(8d91282d65cfb43b1b9de7dd3dc33a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Circle_Line_White.png using Guid(8d91282d65cfb43b1b9de7dd3dc33a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80c35b173437e158cd1717228e251509') in 0.0154293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Oval01_s.png
+  artifactKey: Guid(395b04f6309534138b878df03ff019a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Oval01_s.png using Guid(395b04f6309534138b878df03ff019a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a86cc2fa1e4f06deb9b88c7c8e0c22ec') in 0.0178106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Circle_Line_Purple.png
+  artifactKey: Guid(c700f5ea4a0464e4399c6c5f87635bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Circle_Line_Purple.png using Guid(c700f5ea4a0464e4399c6c5f87635bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d9c71951d94668732c64fb355d6cd20') in 0.0172085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Oval00_s_Purple.png
+  artifactKey: Guid(ee3e8e7e9744f4e64a328d93217e58a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Oval00_s_Purple.png using Guid(ee3e8e7e9744f4e64a328d93217e58a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '548487ca0fc0ffeb8b675acdccdc3afb') in 0.0174903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Circle_Line_Gray.png
+  artifactKey: Guid(ad32fb60029204538b9e5c80c0c4f75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button/Btn_Circle_Line_Gray.png using Guid(ad32fb60029204538b9e5c80c0c4f75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68cfeeced00ea0c4c58e1a3b237ee4b') in 0.0164204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.674071 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Chat.png
+  artifactKey: Guid(1c04166adb65046369dd6eb876a0b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Chat.png using Guid(1c04166adb65046369dd6eb876a0b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da55db08b9a66dbe0c75013bb4f88295') in 0.018111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Mute.png
+  artifactKey: Guid(3249286729ff240378b7b4e90bd3eb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Mute.png using Guid(3249286729ff240378b7b4e90bd3eb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e94c4b31ac174a1d78fa18978145ac16') in 0.016436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Up.png
+  artifactKey: Guid(10e8b4a27d2df44b3b50ec0c7c67c53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Up.png using Guid(10e8b4a27d2df44b3b50ec0c7c67c53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c4adb49290829c774cbc5499cce44b2') in 0.018398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Help.png
+  artifactKey: Guid(b3ec6b032ccfb4ae3bfa7eff4317d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Help.png using Guid(b3ec6b032ccfb4ae3bfa7eff4317d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbdbaaa5dfbd17fd3fe027a984f8941b') in 0.018181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Page Next.png
+  artifactKey: Guid(dd15d8d66885d4518b9871394aa69e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Page Next.png using Guid(dd15d8d66885d4518b9871394aa69e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22025b4bc2d1a81e91477e0ac5607ed6') in 0.0182964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Home.png
+  artifactKey: Guid(dff6b0139e12c42c2bdd4e763cb90439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Home.png using Guid(dff6b0139e12c42c2bdd4e763cb90439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f31d797434d652cfcbf392dc8f6177b') in 0.0174549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Pause.png
+  artifactKey: Guid(659b4aad6f05242d9a54afbe03ab7df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Pause.png using Guid(659b4aad6f05242d9a54afbe03ab7df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93dd19936a44264902b86b353e83095f') in 0.0160182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Stop.png
+  artifactKey: Guid(fce6e21dc7f29434c9f4a09a10015786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Stop.png using Guid(fce6e21dc7f29434c9f4a09a10015786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4c1b7e09a552f678d0ae6a9dadb2e4f') in 0.0196566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Star.png
+  artifactKey: Guid(2c8a645530ca54c519aed1273d4cf428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Button_ButtonIcons/Face_Purple/btn_face_purple_Star.png using Guid(2c8a645530ca54c519aed1273d4cf428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35f84aa11113d2b4e4ce3c0451e0dec6') in 0.0159654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 404.411374 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Notify_Count.png
+  artifactKey: Guid(2952928fb60134ce19dbe64a380f1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Notify_Count.png using Guid(2952928fb60134ce19dbe64a380f1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4937a96a2f91a325e439eecd8123616d') in 0.0188194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Status_Frame_00.png
+  artifactKey: Guid(e8ac20b4379a041488abefbdcb6bcccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Status_Frame_00.png using Guid(e8ac20b4379a041488abefbdcb6bcccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78edb6d61f153dfda1a6c2d0536afc70') in 0.0179413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Icon_Sound_off.png
+  artifactKey: Guid(12c8c80b6fe8047b3ba194bc534f428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Icon_Sound_off.png using Guid(12c8c80b6fe8047b3ba194bc534f428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b40dbb5808cda736ff93428bf506279') in 0.0184239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Status00_Btn_Add_n.png
+  artifactKey: Guid(10eefd2bd49604e2cb79899046c5b868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Status00_Btn_Add_n.png using Guid(10eefd2bd49604e2cb79899046c5b868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c5ba048d2d0ba454f1b4a4ef9022ee7') in 0.017842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Status_Icon_Star.png
+  artifactKey: Guid(22ced6226f74d47088d5dd349c334600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Status_Icon_Star.png using Guid(22ced6226f74d47088d5dd349c334600) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b595902777bbf9197588a496c4d3e9b') in 0.0194681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Handel_Off.png
+  artifactKey: Guid(9c8ef904064c44f69bcbe26135ba9544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Handel_Off.png using Guid(9c8ef904064c44f69bcbe26135ba9544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6fe92f0557e96feeb37c451c52b67b7') in 0.0190839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Handle_On.png
+  artifactKey: Guid(10eefbba03db44fd38956fa44c1c84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Handle_On.png using Guid(10eefbba03db44fd38956fa44c1c84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4b79db7af4b4d934fd9f99fe70571a4') in 0.0238553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Check_White1.png
+  artifactKey: Guid(b55e2a5b3f2d14c00a903ee1e2a8f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Check_White1.png using Guid(b55e2a5b3f2d14c00a903ee1e2a8f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '947913facf9a64834684bc12be9a2f64') in 0.0195783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Icon_Sound_on.png
+  artifactKey: Guid(63d0d9172b5894263bec67b6f0d6b33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Icon_Sound_on.png using Guid(63d0d9172b5894263bec67b6f0d6b33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c2f3ca276b2181d2b351ac3db84785f') in 0.021425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Status_Icon_Coin.png
+  artifactKey: Guid(a18602cdd2beb4c029ba764153b7e9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Status_Icon_Coin.png using Guid(a18602cdd2beb4c029ba764153b7e9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8de842777cf21714687c933fba732362') in 0.0196222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Frame_Off_white.png
+  artifactKey: Guid(6028a2645fcdf40a1a1d9897305ec080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Frame_Off_white.png using Guid(6028a2645fcdf40a1a1d9897305ec080) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '566f50a6219cb59c08fc75c82dd77bfd') in 0.0190167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Radio_d.png
+  artifactKey: Guid(826b789ce12714eaa9b1cd0bda29363b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Radio_d.png using Guid(826b789ce12714eaa9b1cd0bda29363b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3151e365a7db2a1698aba85ad0315446') in 0.0183958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/PageNavi_On.png
+  artifactKey: Guid(ad9c8d4010dc140389a206666e57446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/PageNavi_On.png using Guid(ad9c8d4010dc140389a206666e57446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfab6de8af2104b913c53a631c8f03f') in 0.0233024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Icon_Bgm_on.png
+  artifactKey: Guid(b9d2fdcb5697a40c89b55a17acf3a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Icon_Bgm_on.png using Guid(b9d2fdcb5697a40c89b55a17acf3a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f891488f3d7ee534da9844c05c003dd0') in 0.0176607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Check_Off.png
+  artifactKey: Guid(eb04a783ed0d649c7a4f77fb2f579afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Check_Off.png using Guid(eb04a783ed0d649c7a4f77fb2f579afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5324b14a7d5028d9bea116a19e0225d') in 0.0146575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Frame_Off.png
+  artifactKey: Guid(fb850670f0eac49ada59a80a79958a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Frame_Off.png using Guid(fb850670f0eac49ada59a80a79958a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c2926a7a89f0519d281a7c75894e5e4') in 0.0145388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Frame_On_white.png
+  artifactKey: Guid(97f85db4008234a06a9486b850026420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Frame_On_white.png using Guid(97f85db4008234a06a9486b850026420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de695d27e41e18d39890e6b4ffeb22ec') in 0.0211527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Handle_white.png
+  artifactKey: Guid(25baa29b3c05041d0a9d39b0b62be026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Handle_white.png using Guid(25baa29b3c05041d0a9d39b0b62be026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a102f36166d2635fba534758c1e0d1c') in 0.01654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.777700 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Frame/Frame_Topbar_White.png
+  artifactKey: Guid(3d3e7f4ba41554a6792f551cbe652b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Frame/Frame_Topbar_White.png using Guid(3d3e7f4ba41554a6792f551cbe652b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2592e92d894b890673caab319c89f0ed') in 0.0185084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.845487 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/ActionText/ActonText_Good.png
+  artifactKey: Guid(4fa12d5c3f5d1426c8f64afd2a756707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/ActionText/ActonText_Good.png using Guid(4fa12d5c3f5d1426c8f64afd2a756707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c22ba407a8ea9107b0d30e905535059') in 0.0175469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/ActionText/ActonText_LevelUp.png
+  artifactKey: Guid(e5655dd04149e45718a6fc0c04c73353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/ActionText/ActonText_LevelUp.png using Guid(e5655dd04149e45718a6fc0c04c73353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbef85785ad4fbfd1703f7e8e485d0ff') in 0.0190516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.990 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.282 seconds
+Domain Reload Profiling: 2265ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (641ms)
+		LoadAssemblies (505ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (203ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1283ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1094ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (344ms)
+			ProcessInitializeOnLoadAttributes (616ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6924 unused Assets / (4.8 MB). Loaded Objects now: 7823.
+Memory consumption went from 158.4 MB to 153.6 MB.
+Total: 11.019500 ms (FindLiveObjects: 0.905400 ms CreateObjectMapping: 0.537300 ms MarkObjects: 6.343300 ms  DeleteObjects: 3.232000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.033515 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_delete.png
+  artifactKey: Guid(8fefc46e4038449fdaaf450cd2072318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_delete.png using Guid(8fefc46e4038449fdaaf450cd2072318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3588da71d0bba71ef1723acd59cb8e82') in 0.0714565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_menu.png
+  artifactKey: Guid(0f975b85ea46d48c29ad2e848b80747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_menu.png using Guid(0f975b85ea46d48c29ad2e848b80747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac1081043be121c1e40528e76b0f9ec1') in 0.0162893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_page_next.png
+  artifactKey: Guid(2651aa3ab6fd442fb98f40e417979979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_page_next.png using Guid(2651aa3ab6fd442fb98f40e417979979) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38de571199f3675042861c26297db625') in 0.0164455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_unlock.png
+  artifactKey: Guid(12fa79e5dddc7439faf4449682b50e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_unlock.png using Guid(12fa79e5dddc7439faf4449682b50e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f714db8044fca3e390682ec31e96fb22') in 0.0157624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_user.png
+  artifactKey: Guid(be3d76c02dcc44bd8b6b0b7df8270c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_user.png using Guid(be3d76c02dcc44bd8b6b0b7df8270c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07452afccb4b34cadb593c159231d979') in 0.0184913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_more.png
+  artifactKey: Guid(5b2c6fd5ff7e94143ae3fe6b33141661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_more.png using Guid(5b2c6fd5ff7e94143ae3fe6b33141661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b85e3737f873291423d8ecb29dc6b55f') in 0.0154049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_fx_off.png
+  artifactKey: Guid(8948a88336a204f21ad61de065c40cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_fx_off.png using Guid(8948a88336a204f21ad61de065c40cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56911a4446ebb711945ffaae827f2ffd') in 0.0164798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_up.png
+  artifactKey: Guid(bb20892392fc347419c51f5453adb09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_up.png using Guid(bb20892392fc347419c51f5453adb09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c0eb027aafae411ef5d0d0e34303449') in 0.0168677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_mission.png
+  artifactKey: Guid(c08be6deb6a1b4e768fcce421e915242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI-Neon/ResourcesData/Sprites/Components/Icon_PictoIcons/Icon_White/ic_w_mission.png using Guid(c08be6deb6a1b4e768fcce421e915242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae3722a40a6f734bab0c317b56a2e9b8') in 0.0165755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.939 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.204 seconds
+Domain Reload Profiling: 2133ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (616ms)
+		LoadAssemblies (511ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (185ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1032ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (341ms)
+			ProcessInitializeOnLoadAttributes (561ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6924 unused Assets / (3.8 MB). Loaded Objects now: 7828.
+Memory consumption went from 158.5 MB to 154.6 MB.
+Total: 10.393800 ms (FindLiveObjects: 0.769500 ms CreateObjectMapping: 0.662800 ms MarkObjects: 6.829800 ms  DeleteObjects: 2.130500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.942 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.193 seconds
+Domain Reload Profiling: 2129ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (619ms)
+		LoadAssemblies (502ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (186ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1004ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (326ms)
+			ProcessInitializeOnLoadAttributes (551ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6924 unused Assets / (3.7 MB). Loaded Objects now: 7831.
+Memory consumption went from 158.5 MB to 154.8 MB.
+Total: 10.170400 ms (FindLiveObjects: 0.732100 ms CreateObjectMapping: 0.483000 ms MarkObjects: 6.979600 ms  DeleteObjects: 1.974200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6914 unused Assets / (4.3 MB). Loaded Objects now: 7831.
+Memory consumption went from 158.7 MB to 154.3 MB.
+Total: 12.426800 ms (FindLiveObjects: 1.261900 ms CreateObjectMapping: 0.847500 ms MarkObjects: 7.507800 ms  DeleteObjects: 2.808700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.978 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.987 seconds
+Domain Reload Profiling: 1957ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (598ms)
+		LoadAssemblies (508ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (987ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (821ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (234ms)
+			ProcessInitializeOnLoadAttributes (473ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6924 unused Assets / (4.2 MB). Loaded Objects now: 7834.
+Memory consumption went from 158.6 MB to 154.3 MB.
+Total: 9.874600 ms (FindLiveObjects: 0.811100 ms CreateObjectMapping: 0.719500 ms MarkObjects: 6.088800 ms  DeleteObjects: 2.254300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.806 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.060 seconds
+Domain Reload Profiling: 1861ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1060ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (889ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (232ms)
+			ProcessInitializeOnLoadAttributes (539ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6924 unused Assets / (4.1 MB). Loaded Objects now: 7837.
+Memory consumption went from 158.6 MB to 154.5 MB.
+Total: 9.118600 ms (FindLiveObjects: 0.752200 ms CreateObjectMapping: 0.448600 ms MarkObjects: 5.873400 ms  DeleteObjects: 2.043700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.805 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling: 1824ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1024ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (856ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6924 unused Assets / (4.2 MB). Loaded Objects now: 7840.
+Memory consumption went from 160.6 MB to 156.3 MB.
+Total: 9.187200 ms (FindLiveObjects: 0.693600 ms CreateObjectMapping: 0.386700 ms MarkObjects: 6.134700 ms  DeleteObjects: 1.971100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
